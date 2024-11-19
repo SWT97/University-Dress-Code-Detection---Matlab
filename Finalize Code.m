@@ -1,6 +1,6 @@
 % Datasets Paths
-compliance_folder = "\OK";
-non_compliance_folder = "\Not OK";
+compliance_folder = "Data\OK";
+non_compliance_folder = "Data\Not OK";
 
 % List of image files in each folder
 compliance_images = dir(fullfile(compliance_folder, '*.jpg')); 
